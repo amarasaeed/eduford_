@@ -607,10 +607,15 @@ margin-left: 15px;
     .blog-comment {
       width: 80%;
      margin-top: 20px;
-     margin-left: 30px;
+     margin-left: 0px;
+    
+   
+     overflow: hidden;
 
       & fieldset {
-        padding: 20px 20px;
+        /* padding: 20px 20px; */
+        overflow: hidden;
+        margin: auto;
 
         width:80%;
       }
@@ -626,19 +631,22 @@ margin-left: 15px;
     }
   }
   @media(max-width:768px) {
+   
     .blog-paragraph {
       width: 80%;
      margin: auto;
     }
     .blog-comment {
       width: 90%;
-     margin-top: 20px;
-     margin-left: 70px;
-
+      margin-left: auto;
+      margin-top: 20px;
+      margin-right: auto;
+  }
+      
+    
       & fieldset {
         padding: 5px 5px;
-
-        width:80%;
+    
       }
       & h3{
         margin-left: 15px;
@@ -751,7 +759,7 @@ margin-left: 15px;
       }
     
   }
-  @media(max-width:768px){
+  /* @media(max-width:768px){
     .contact {
       gap: 30px;
-    }}
+    }} */
